@@ -126,6 +126,12 @@
     <Compile Include="analog.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="digital.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="digital.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="main.c">
       <SubType>compile</SubType>
     </Compile>

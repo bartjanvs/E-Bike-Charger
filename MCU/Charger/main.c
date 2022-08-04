@@ -10,11 +10,13 @@
 #include <avr/io.h>
 
 #include "analog.h"
+#include "digital.h"
 
 int main(void)
 {
     
 	InitAdc();
+	InitIO();
 	
     while (1) 
     {
